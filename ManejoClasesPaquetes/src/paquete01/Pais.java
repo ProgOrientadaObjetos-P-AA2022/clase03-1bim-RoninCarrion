@@ -10,5 +10,5 @@ package paquete01;
  * @author reroes
  */
 public class Pais {
-    
+    String nombrePais;
 }

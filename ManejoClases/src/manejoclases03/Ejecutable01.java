@@ -14,8 +14,8 @@ public class Ejecutable01 {
         // a través de los métodos establecer
         
         // hospital.nombre = "Isidro Ayora";
-        String nHospital = "Isidro Ayora";
-        hospital.establecerNombre(nHospital);
+        // String nHospital = "Isidro Ayora";
+        hospital.establecerNombre("Isidro Ayora");
         
         // hospital.numeroCamas = 100;
         hospital.establecerNumeroCamas(100);
@@ -31,6 +31,8 @@ public class Ejecutable01 {
         
         System.out.printf("%s - %d - %.2f\n", hospital.obtenerNombre(),
                 hospital.obtenerNumeroCamas(), hospital.obtenerPresupuesto());
-        
+        hospital.establecerNumeroCamas(200);
+        System.out.printf("%s - %d - %.2f\n", hospital.obtenerNombre(),
+                hospital.obtenerNumeroCamas(), hospital.obtenerPresupuesto());        
     }
 }
